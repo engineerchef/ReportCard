@@ -5,9 +5,9 @@ package com.tolgaduran.android.reportcard;
  */
 
 public class ReportCard {
-    public String subjectName;
-    public int subjectIcon;
-    public String grade;
+    private String subjectName;
+    private int subjectIcon;
+    private String grade;
 
     public ReportCard(){
         super();
@@ -24,14 +24,27 @@ public class ReportCard {
 
     public ReportCard(int icon, String subjectName, String grade) {
         super();
-        this.subjectIcon = icon;
-        this.subjectName = subjectName  ;
-        this.grade = grade;
+        this.setSubjectIcon(icon);
+        this.setSubjectName(subjectName);
+        this.setGrade(grade);
     }
 
     @Override
     public String toString() {
         return "Your choice got \n" + grade+ " Grade in "+ subjectName ;
+    }
+
+
+    public void setSubjectName(String subjectName) {
+        this.subjectName = subjectName;
+    }
+
+    public void setSubjectIcon(int subjectIcon) {
+        this.subjectIcon = subjectIcon;
+    }
+
+    public void setGrade(String grade) {
+        this.grade = grade;
     }
 }
 
