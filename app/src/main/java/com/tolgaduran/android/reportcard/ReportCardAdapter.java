@@ -15,8 +15,8 @@ import android.widget.TextView;
  */
 
 public class ReportCardAdapter extends ArrayAdapter<ReportCard>{
-    private Context context;
-    private int id;
+    Context context;
+    int id;
     ReportCard listDetails[]=null;
 
     public ReportCardAdapter(Context context,int id, ReportCard[] lists){

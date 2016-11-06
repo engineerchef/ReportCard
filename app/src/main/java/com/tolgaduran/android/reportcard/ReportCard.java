@@ -5,9 +5,9 @@ package com.tolgaduran.android.reportcard;
  */
 
 public class ReportCard {
-    private String subjectName;
-    private int subjectIcon;
-    private String grade;
+    public String subjectName;
+    public int subjectIcon;
+    public String grade;
 
     public ReportCard(){
         super();
