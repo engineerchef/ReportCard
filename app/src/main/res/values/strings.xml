@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ReportCard</string>
+    <string name="subject_image">Subject Image</string>
+    <string name="subject_name">Subject Name</string>
+    <string name="grade">Grade</string>
+</resources>
